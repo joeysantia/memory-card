@@ -1,2 +1,5 @@
-# memory-card
-Memory Card project for the Odin Project. An exercise in functional React components and hooks.
+TASKS
+
+1. Refactor/clean up
+2. CSS
+3. Add images to the cardArray
