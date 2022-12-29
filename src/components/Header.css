@@ -1,6 +1,8 @@
 
 
 header {
+    margin-top: 8px;
+    padding: 2px;
     text-align: center;
     background: white;
     border-radius: 8px;
@@ -9,5 +11,6 @@ header {
 
 p {
     font-size: 24px;
+    margin-bottom: 0;
     font-family: 'IceCreamPartySolid'
 }
