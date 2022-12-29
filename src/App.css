@@ -36,3 +36,13 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
 }
+
+@font-face {
+  font-family: 'IceCreamParty';
+  src: url('./fonts/IceCreamParty.ttf');
+}
+
+@font-face {
+  font-family: 'IceCreamPartySolid';
+  src: url('./fonts/IceCreamPartySolid.ttf');
+}

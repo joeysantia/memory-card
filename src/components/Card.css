@@ -10,3 +10,12 @@
     text-align: center;
     justify-content: space-between;
 }
+
+.card:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+img {
+    height: 185px;
+}
