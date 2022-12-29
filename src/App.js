@@ -3,13 +3,12 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Counter from './components/Counter'
 import HighScore from './components/HighScore'
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   const [cardArray, setCardArray] = useState([
     {id: 'Mordecai',
-     img: '#',
+     img: '../src/img/mordecai.webp',
      index: 0,
      hasBeenClicked: false 
     },
@@ -122,7 +121,6 @@ function App() {
   }
 
   function resetCounter() {
-    console.log('ya fucked up!')
     setCount(0)
   }
 
@@ -164,7 +162,6 @@ function App() {
   }
 
   let randomCards = randomize(cardArray)
-  console.log(randomCards)
 
   return <div id="app">
     <Header />
@@ -183,6 +180,7 @@ function App() {
                   cardArray={cardArray}
                   index={card.index}
                   key={i}
+                  img={card.img}
                   setCardStatus={setCardStatus}
                   setCardArray={setCardArray}
                  />

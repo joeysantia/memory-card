@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'IceCreamParty';
+    src: url('../fonts/IceCreamParty.ttf');
+}
+
+header {
+    text-align: center;
+}
+
+header > * {
+    background: white;
+    border-radius: 8px;
+    font-family: 'IceCreamParty', 'sans-serif'
+}
